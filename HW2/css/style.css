@@ -1,0 +1,23 @@
+ .wrap {
+     margin: 0 auto;
+    width: 750px;
+ }
+
+.img_air {
+    width: 30%;
+    height: 30%;
+    float: left;
+    margin: 10px;
+}
+
+.img_squ{
+    width: 40%;
+    height: 40%;
+    margin: 10px;
+    text-align: center;
+}
+
+.for_img {
+    text-align: center;
+}
+

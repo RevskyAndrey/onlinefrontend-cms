@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма</title>
+    <link rel="stylesheet" href="Css/style.css" type="text/css">
+</head>
+<body>
+
+<section class="context">
+<h1> Расскажите  немного о себе</h1>
+
+<form action="#" method="post">
+    <fieldset>
+        <legend>Коротко о себе</legend>
+        <ul>
+            <li>
+                <label for="name"> Имя </label>
+                <input type="text" name="name" id="name">
+            </li>
+            <li>
+                <label for="surname" >Фамилия </label>
+                <input type="text" name="surname" id="surname">
+            </li>
+            <li>
+                <span> Пол </span>
+                <input type="radio" id="male" name="sex">
+                <label for="male">мужской</label>
+                 <input type="radio" id="female" name="sex">
+                <label for="female">женский</label>
+            </li>
+            <li><label for="age"> Возрас </label>
+                <input type="number" id="age">
+                <label for="age"> лет</label>
+            </li>
+        </ul>
+    </fieldset>
+<!---2 -->
+    <fieldset>
+      <legend>Подробнее о себе</legend>
+        <ul>
+            <li>
+              <input type="radio" id="youngMan" name="radioAge">
+              <label for="youngMan">молодой человек</label>
+            </li>
+            <li>
+                <input type="radio" id="girl" name="radioAge">
+                <label for="girl">девушка</label>
+            </li>
+            <li>
+                <input type="date" name="birthday" id="birthday">
+                <label for="birthday">Дата рождения </label>
+            </li>
+            <li>
+                <input type="text" name="familyStatus" id="familyStatus">
+                <label for="familyStatus"> Семейное положение </label>
+            </li>
+            <li>
+                <input type="text" name="socialStatus" id="socialStatus">
+                <label for="socialStatus">Социальный статус </label>
+            </li>
+            <li>
+                <input type="text" name="location" id="location">
+                <label for="location">Местожительство </label>
+            </li>
+            <li>
+                <h3>Что вы обучно делаете на выходных</h3>
+            </li>
+            <li>
+                <input type="checkbox" name="freeDaySleep" id="freeDaySleep">
+                <label for="freeDaySleep">Сплю</label>
+            </li>
+            <li>
+                <input type="checkbox" name="freeDayFriends" id="freeDayFriends">
+                <label for="freeDayFriends"> Гуляю с друзьями</label>
+            </li>
+            <li>
+                <input type="checkbox" name="freeDayFishing" id="freeDayFishing">
+                <label for="freeDayFishing">Хожу на рыбалку</label>
+            </li>
+            <li>
+                <input type="checkbox" name="freeDayGames" id="freeDayGames">
+                <label for="freeDayGames">Играю в игры</label>
+            </li>
+            <li>
+                <h3><label for="book">Рассказать о формах в книге, посвященной HTML</label></h3>
+            </li>
+            <li>
+                <select name="htmlBook" id="book">
+                    <option value="htmlBook1">book1</option>
+                    <option value="htmlBook2">book2</option>
+                    <option value="htmlBook3">book3</option>
+                </select>
+            </li>
+            <li>
+                <h3>Сколько кник Вы прочитали за свою жизнь</h3>
+            </li>
+            <li>
+                <input type="radio" name="raedBook" id="readbook1">
+                <label for="readbook1">0-10</label>
+            </li>
+            <li>
+                <input type="radio" name="raedBook" id="readbook2">
+                <label for="readbook2">11-20</label>
+            </li>
+            <li>
+                <input type="radio" name="raedBook" id="readbook3">
+                <label for="readbook3">21-50</label>
+            </li>
+            <li>
+                <input type="radio" name="raedBook" id="readbook4">
+                <label for="readbook4"> 50-100</label>
+            </li>
+            <li>
+              <h3><label for="comments">Ваши комментарии:</label></h3>
+            </li>
+            <li>
+                <textarea name="comments" id="comments" cols="46" rows="7"></textarea>
+            </li>
+            <li>
+            <select name="position" id="position" size="3" title="position">
+                <option value="position0">Первая позиция</option>
+                <option value="position1" selected>Втрая позиция</option>
+                <option value="position2">Третья позиция</option>
+                <option value="position4">Четвертая позиция</option>
+            </select>
+            </li>
+        </ul>
+    </fieldset>
+<!-- 3 -->
+    <fieldset>
+        <legend>И в заключение</legend>
+        <ul>
+           <li>
+              <input type="text" class="before-youn" placeholder=" Это поле было введено до Вас">
+           </li>
+           <li>
+               <ul class="email">
+                    <li>
+                        <label for="email">Email</label>
+                    </li>
+                    <li>
+                        <input type="email" id="email" name="email" class="before-youn">
+                    </li>
+               </ul>
+            </li>
+            <li>
+                 <h3>Хотите подписаться на самую модную рассылку спама</h3>
+            </li>
+            <li>
+                <i>Выберите катергорию</i>
+            </li>
+            <li>
+                <input type="checkbox" name="spam1" id="spam1">
+                <label for="spam1">Оборудование</label>
+            </li>
+            <li>
+                <input type="checkbox" name="spam2" id="spam2">
+                <label for="spam2">Как приготовить обед</label>
+            </li>
+            <li>
+               <input type="checkbox" name="spam3" id="spam3">
+                <label for="spam3">Заработай милион за два дня</label>
+            </li>
+            <li>
+                <h2>На сколько сложная задача</h2>
+            </li>
+            <li>
+                <input type="radio" name="complexity" id="complexity1">
+                <label for="complexity1">Совсем нет</label>
+            </li>
+            <li>
+                <input type="radio" name="complexity" id="complexity2">
+                <label for="complexity2">Так себе</label>
+            </li>
+            <li>
+                <input type="radio" name="complexity" id="complexity3">
+                <label for="complexity3">Еле справиилсь</label>
+            </li>
+    </ul>
+    </fieldset>
+
+    <button type="submit"> отправить </button>
+</form>
+</section>
+
+<section class="second">
+
+    <table class="table-first">
+        <thead>
+        <tr>
+            <th>Об'єкт обробки</th>
+            <th>Норма витрати препарату, мл/10л</th>
+            <th>Норма витрати препарату, л/сотку</th>
+            <th>Шкідливі об"екти</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Картопля</td>
+            <td>60-80</td>
+            <td>до 5л.</td>
+            <td>Однорічні дводольні та злакові бур'яни</td>
+        </tr>
+        <tr>
+            <td>Морква</td>
+            <td>40-60</td>
+            <td>до 5л.</td>
+            <td>Однорічні дводольні та злакові бур'яни</td>
+        </tr>
+        </tbody>
+    </table>
+
+
+    <table class="table-second">
+        <thead>
+        <tr>
+            <th>Культура</th>
+            <th>Бур'яни</th>
+            <th>Норма витрати препарату, л/га</th>
+            <th>Строки обробки</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th>Ріпак</th>
+            <td>однорічні</td>
+            <td>2-3</td>
+            <td>1 обробка в фазі 2-4 листків у бур'янів. При висоті бур'янів 10-15 см</td>
+        </tr>
+        <tr>
+            <th>Томати</th>
+            <td rowspan="2">однорічні та багаторічні</td>
+            <td>1-22-3</td>
+            <td rowspan="3">1 обробка в фазі 1-2 листків у бур'янів. При висоті бур'янів 10-15 см</td>
+        </tr>
+        <tr>
+            <th>Огірки</th>
+            <td>2-3</td>
+        </tr>
+        <tr>
+            <th>Коноплі</th>
+            <td>однорічні</td>
+            <td>1,5</td>
+        </tr>
+        </tbody>
+    </table>
+    <br>
+    <table class="table-second">
+        <thead>
+        <tr>
+            <th>Культура</th>
+            <th>Спектр дії</th>
+            <th>Норма витрат</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Буряки(столові, цукрові, коромові),
+                морква, соняшник, картопля, капуста, цибуля,
+                ріпак, баклажани, гарбузи, горох, дині, огірки, перець,
+                петрушка, селера, спаржа, томати, плодові культури (вишня,
+                груша, персик, слива, яблуня), ягідні культури (суниця,
+                смородина)
+            </td>
+            <td>Гумай, куряче просо, види мишію, види пальчатки, види
+                вівсюга, метлюг звичайний, лисохвіст польовий, просо волосовидне
+            </td>
+            <td>0,8-2,0 л/га</td>
+        </tr>
+        <tr>
+            <td>Однорічні та деякі багаторічні дводольні в т.ч стійкі до 2,4-Д
+                (підмаренник чіпкий, берізка польова, зірочник середній, та ін..)
+            </td>
+            <td>Пшениця озима</td>
+            <td>7,5-10</td>
+        </tr>
+        <tr>
+            <td>Поля, призначені для посіву озимих, овочевих, баштанних культур,
+                цукрових буряків, кукурудзи, багаторічних трав. Пари
+                несільськогосподарські угіддя, та ін..
+            </td>
+            <td>Багаторічні дводольні (осоти, ромашки, молочаї, кульбаба, та ін..)</td>
+            <td>30</td>
+        </tr>
+        </tbody>
+    </table>
+
+</section>
+<footer><p>©Revsky Andrey</p></footer>
+</body>
+</html>
